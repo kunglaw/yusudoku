@@ -35,7 +35,7 @@ export default class Board extends Component {
     var x = 0;
     var y = 0;
     var objItem = {};
-    console.log(this.state.board);
+    var bgColor = "";
 
     sudokuCase.split("").forEach((item, index) => {
       var fixed = false;
@@ -50,6 +50,18 @@ export default class Board extends Component {
         color: "",
       };
 
+      if ((x >= 0 && x <= 2) || (x >= 6 && x <= 8)) {
+        if (y >= 3 && y <= 5) {
+          objItem.bgColor = "#C0C0C0";
+        }
+      } else if (x >= 3 && x <= 5) {
+        if ((y >= 0 && y <= 2) || (y >= 6 && y <= 8)) {
+          objItem.bgColor = "#C0C0C0";
+        }
+      }
+
+      // console.log("objItem => ", x, y, objItem.bgColor);
+
       if ((index + 1) % 9 === 0) {
         //console.log(item, index);
 
@@ -58,13 +70,14 @@ export default class Board extends Component {
         x = x + 1;
         temp = [];
         y = 0;
+        indexRow++;
       } else {
         temp.push(objItem);
         y = y + 1;
       }
     });
 
-    // console.log(result);
+    console.log(result);
 
     this.setState({
       board: result,
@@ -106,7 +119,6 @@ export default class Board extends Component {
       thisBoard[x][y]["color"] = "";
     }
 
-    //console.log("change => ", thisBoard);
     this.setState({
       board: thisBoard,
     });
