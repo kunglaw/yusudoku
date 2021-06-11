@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.5c08abe8.chunk.css",
-    "main.js": "/static/js/main.ede5d856.chunk.js",
-    "main.js.map": "/static/js/main.ede5d856.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.37b7fcf9.js",
-    "runtime-main.js.map": "/static/js/runtime-main.37b7fcf9.js.map",
-    "static/css/2.b0704b7a.chunk.css": "/static/css/2.b0704b7a.chunk.css",
-    "static/js/2.4263f901.chunk.js": "/static/js/2.4263f901.chunk.js",
-    "static/js/2.4263f901.chunk.js.map": "/static/js/2.4263f901.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.3004dba4e6c80501656bc54181885755.js": "/precache-manifest.3004dba4e6c80501656bc54181885755.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.b0704b7a.chunk.css.map": "/static/css/2.b0704b7a.chunk.css.map",
-    "static/css/main.5c08abe8.chunk.css.map": "/static/css/main.5c08abe8.chunk.css.map",
-    "static/js/2.4263f901.chunk.js.LICENSE.txt": "/static/js/2.4263f901.chunk.js.LICENSE.txt"
+    "main.css": "/yusudoku/static/css/main.5c08abe8.chunk.css",
+    "main.js": "/yusudoku/static/js/main.e88bf28c.chunk.js",
+    "main.js.map": "/yusudoku/static/js/main.e88bf28c.chunk.js.map",
+    "runtime-main.js": "/yusudoku/static/js/runtime-main.6df491ff.js",
+    "runtime-main.js.map": "/yusudoku/static/js/runtime-main.6df491ff.js.map",
+    "static/css/2.b0704b7a.chunk.css": "/yusudoku/static/css/2.b0704b7a.chunk.css",
+    "static/js/2.4263f901.chunk.js": "/yusudoku/static/js/2.4263f901.chunk.js",
+    "static/js/2.4263f901.chunk.js.map": "/yusudoku/static/js/2.4263f901.chunk.js.map",
+    "index.html": "/yusudoku/index.html",
+    "precache-manifest.d6ed06bd388caba30255e8b6a6b7c9a2.js": "/yusudoku/precache-manifest.d6ed06bd388caba30255e8b6a6b7c9a2.js",
+    "service-worker.js": "/yusudoku/service-worker.js",
+    "static/css/2.b0704b7a.chunk.css.map": "/yusudoku/static/css/2.b0704b7a.chunk.css.map",
+    "static/css/main.5c08abe8.chunk.css.map": "/yusudoku/static/css/main.5c08abe8.chunk.css.map",
+    "static/js/2.4263f901.chunk.js.LICENSE.txt": "/yusudoku/static/js/2.4263f901.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.37b7fcf9.js",
+    "static/js/runtime-main.6df491ff.js",
     "static/css/2.b0704b7a.chunk.css",
     "static/js/2.4263f901.chunk.js",
     "static/css/main.5c08abe8.chunk.css",
-    "static/js/main.ede5d856.chunk.js"
+    "static/js/main.e88bf28c.chunk.js"
   ]
 }
