@@ -22,6 +22,6 @@ export default class index extends Component {
       );
     });
 
-    return <div className="row">{ListCell}</div>;
+    return <div style={{ display: "flex" }}>{ListCell}</div>;
   }
 }

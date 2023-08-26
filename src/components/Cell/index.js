@@ -36,9 +36,12 @@ export default class index extends Component {
 
   render() {
     return (
-      <div className="col" style={{ margin: 0, padding: 0 }}>
+      <div style={{ justifyItems: "center" }}>
         <input
-          style={{ width: "50%" }}
+          style={{
+            backgroundColor: this.props.bgColor,
+            color: this.props.color,
+          }}
           disabled={this.props.disabled}
           type="number"
           maxLength="1"
@@ -61,10 +64,6 @@ export default class index extends Component {
               bgColor: this.props.bgColor,
               color: this.props.color,
             });
-          }}
-          style={{
-            backgroundColor: this.props.bgColor,
-            color: this.props.color,
           }}
         ></input>
       </div>
