@@ -36,8 +36,9 @@ export default class index extends Component {
 
   render() {
     return (
-      <div>
+      <div className="col" style={{ margin: 0, padding: 0 }}>
         <input
+          style={{ width: "50%" }}
           disabled={this.props.disabled}
           type="number"
           maxLength="1"

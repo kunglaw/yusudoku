@@ -143,10 +143,7 @@ export default class Board extends Component {
     return (
       <div>
         <Card.Header className="container">
-          <div
-            className="pull-right"
-            style={{ marginBottom: 20, width: "30%", float: "right" }}
-          >
+          <div style={{ marginBottom: 20, width: "30%", float: "left" }}>
             <div className="row">
               <div className="col-md-6 pull-right">
                 <Button className=" " onClick={this.generateBoard}>
@@ -172,7 +169,7 @@ export default class Board extends Component {
         </Card.Header>
 
         <div className="clearfix">&nbsp;</div>
-        {BoardList}
+        <div className="container">{BoardList}</div>
         <div className="clearfix"></div>
       </div>
     );

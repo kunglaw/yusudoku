@@ -22,13 +22,6 @@ export default class index extends Component {
       );
     });
 
-    return (
-      <div
-        className="row"
-        style={{ marginLeft: "auto", marginRight: "auto", width: "34%" }}
-      >
-        {ListCell}
-      </div>
-    );
+    return <div className="row">{ListCell}</div>;
   }
 }
